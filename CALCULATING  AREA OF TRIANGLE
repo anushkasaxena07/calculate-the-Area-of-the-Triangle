@@ -1,0 +1,19 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+	  int a, b  ,c  ,s, area;
+	  clrscr();
+printf("THIS IS PROGRAM OF AREA OF TRIANGLE BY HERONS FORMULA\n");
+printf("enter side1");
+scanf("%d",&a);
+		   printf("enter side 2");
+		   scanf("%d",&b);
+		   printf("enter side 3");
+		   scanf("%d",&c);
+		   s=a+b+c/2;
+		   area=sqrt((s) * (s-a) * (s-b) * (s-c));
+		   printf("%d",area);
+		   getch();
+		   }
+
